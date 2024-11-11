@@ -1,4 +1,5 @@
 import chessObjects
 
 board = chessObjects.GameBoard()
-print(board.userEquivalency[7][7])
+game = chessObjects.GameStart()
+game.play_game()
